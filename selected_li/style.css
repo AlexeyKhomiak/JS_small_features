@@ -1,0 +1,15 @@
+ul {    
+    list-style-type: decimal;
+}
+
+div {
+    padding: 5px;
+    background-color: #fbf2ea;
+}
+
+.active {
+    background-color: #ffaa85;
+}
+li {
+    padding: 5px;
+}

@@ -1,0 +1,30 @@
+.circle {
+    background-color: lightgray;
+    height: 100px;
+    border-radius:50%;
+    width: 100px;
+    margin: 10px;
+}
+
+#rectangle {
+    border-radius: 25px;
+    border: 2px solid lightgray;
+    padding: 20px; 
+    width: 360px;
+    height: 120px;
+    display: flex;
+}
+
+#trafficLight {
+    display: flex;
+    background-color: cornsilk;
+    padding: 20px;
+    width: 554px;
+}
+
+#btn {
+    margin-left: 25px;
+    border-radius: 25px;
+    width: 120px;
+    font-size: 20px;
+}
