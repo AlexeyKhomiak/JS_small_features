@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Style</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+</head>
+<body>
+   
+    <div id="styleText">
+        <form>
+            <input type="checkbox" id="check1">Bold
+            <input type="checkbox" id="check2">Underline
+            <input type="checkbox" id="check3">Italics
+            <input type="radio" name="style" checked id="rad1">Left
+            <input type="radio" name="style" id="rad2">Right
+            <input type="radio" name="style" id="rad3">Justify
+            <br>
+            <textarea id="text" rows="5"></textarea>
+            <br>
+            
+        </form>
+             <button id="btn">Show text</button>
+        <div>
+            <h3>Result:</h3>
+            <div id="result"></div>
+            
+        </div>
+        
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    background-color: blanchedalmond;
+}
+h2 {
+    text-align: center;
+}
+#cards {
+    margin: 5% 10%;
+    border: 2px solid black;
+    padding: 2%;
+}
+.card2 {
+    display: none;
+}
+.results {
+    display: none;
+}
+button {
+    width: 15%;
+    height: 25px;
+    border-radius: 5px;
+}
